@@ -11,7 +11,7 @@ public class Review01 {
     }
 
     public static int taxMethod(int price,int tax) {
-        int result = (int)(price * (int) tax/(1000 * 0.1));
+        int result = (int) (price * (int) tax/(1000 * 0.1));
         return result;
     }
 }
